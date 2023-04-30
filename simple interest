@@ -1,0 +1,5 @@
+p=int(input("enter the principal value: "))
+r=int(input("enter the rate: "))
+t=int(input("enter the time: "))
+simple_interest =p*t*r 
+print("simple interest is",simple_interest)

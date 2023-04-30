@@ -1,0 +1,5 @@
+p=int(input("enter the principal value: "))
+r=int(input("enter the rate: "))
+t=int(input("enter the time: "))
+compound_interest=p*pow(1+r/100,t)
+print("compoud interest is equal to",compound_interest)
